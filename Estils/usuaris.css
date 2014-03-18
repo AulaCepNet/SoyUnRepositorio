@@ -1,0 +1,155 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+    font-family:'Comic Sans MS';
+    font-size:16px;
+}
+
+body {
+}
+
+header, nav, section {
+display:block;
+}
+
+#tot {
+    width:980px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#tot > header 
+{
+height:70px;
+margin-top:10px;    
+    }
+
+header {
+padding-left:5px;
+margin-bottom:10px;
+height:30px;
+background-color:black;
+color:white;
+}
+
+#logo {
+float:left;
+width:100px;
+height:50px;
+margin:10px;
+}
+
+
+.ImagenLogo
+{
+    width:100px;
+    height:50px;     
+}
+
+#sortir {
+float:right;
+margin-right:10px;
+}
+
+.ImagenSortir {
+float:right;
+}
+
+#tot > nav {
+height:50px;
+}
+
+.HipervinculosNav {
+display:inline-block;
+width:150px;
+margin-right:5px;
+padding-top:5px;
+background-color:black;
+color:white;
+ text-decoration:none;
+ text-align:center;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+
+}
+
+
+
+/** INICI.AXP */
+#login {
+    width:575px;
+    padding:10px;
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid black;
+    
+}
+
+
+
+
+.etiquetasNormales {
+display:inline-block;
+width:175px;
+}
+
+.textboxes {
+display:inline-block;
+width:200px;
+}
+
+.Errores {
+display:inline-block;
+color:red;
+margin-left:10px;
+}
+
+
+
+/*USUARIS.AXP*/
+.PnalesUsuari {
+padding:10px;
+border:1px solid black;
+}
+
+.columnasBotonDGV {
+padding:5px;
+}
+.columnasTextDGV {
+width:250px;
+text-align:center;
+}
+
+/*ROLS.ASPx*/
+
+.PanelLlistaRolsPanelUnRol {
+width:450px;
+padding:10px;
+}
+
+.PanelDretaEsquerraBoton {
+    width:125px;
+    float:left;
+}
+
+.Panelbotons {
+padding-top:10px;
+clear:both;
+}
+
+#ContentPlaceHolder1_PanelLlistaRols {
+float:left;
+}
+#ContentPlaceHolder1_PanelUnRol {
+float:left;
+}
+
+#ContentPlaceHolder1_PanelBotonsAgregar {
+margin-top:55px;
+margin-left:20px;
+}
+
+
