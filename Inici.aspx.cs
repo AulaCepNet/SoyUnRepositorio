@@ -11,6 +11,9 @@ public partial class Inici : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        if(!IsPostBack){
+            return 0;
+        }
     }
     protected void btnConectar_Click(object sender, ImageClickEventArgs e)
     {
